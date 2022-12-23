@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  SixtySeven
+ * @package   SixtySeven_ElasticFix
+ */	
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+	<type name="Magento\CatalogSearch\Model\Adapter\Mysql\Filter\AliasResolver">
+        <plugin name="catalogsearchFilterAliasResolverAfter" type="SixtySeven\ElasticFix\Plugin\CatalogSearch\Model\Adapter\Mysql\Filter\AliasResolver"/>
+    </type>
+</config>
